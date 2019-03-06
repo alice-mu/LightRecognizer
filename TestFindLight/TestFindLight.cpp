@@ -12,7 +12,7 @@ using namespace cv::ml;
 
 int main()
 {
-	VideoCapture video("dimmer.mov");
+	VideoCapture video("toronto.mp4");
 	if (!video.isOpened()) {
 		cerr << "Error opening video stream or file" << endl;
 		return -1;
